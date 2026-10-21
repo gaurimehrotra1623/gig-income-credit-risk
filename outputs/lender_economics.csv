@@ -1,0 +1,109 @@
+trend,scenario,schedule,model,seed,approval,approved_default,profit_per_applicant,approved_seasonal
+no trend,"margin 10%, loss 60%",fixed,approve everyone,42,1.0,0.168,-0.017599999999999994,1.0
+no trend,"margin 15%, loss 60%",fixed,approve everyone,42,1.0,0.168,0.023999999999999994,1.0
+no trend,"margin 10%, loss 90%",fixed,approve everyone,42,1.0,0.168,-0.068,1.0
+no trend,"margin 10%, loss 60%",fixed,A baseline,42,0.496,0.07661290322580645,0.023,0.4748603351955307
+no trend,"margin 15%, loss 60%",fixed,A baseline,42,0.732,0.13387978142076504,0.0363,0.7430167597765364
+no trend,"margin 10%, loss 90%",fixed,A baseline,42,0.232,0.034482758620689655,0.015200000000000002,0.20670391061452514
+no trend,"margin 10%, loss 60%",fixed,D STL features (no trend),42,0.538,0.10037174721189591,0.016,0.46368715083798884
+no trend,"margin 15%, loss 60%",fixed,D STL features (no trend),42,0.754,0.13262599469496023,0.038099999999999995,0.7486033519553073
+no trend,"margin 10%, loss 90%",fixed,D STL features (no trend),42,0.278,0.07194244604316546,0.0078,0.18994413407821228
+no trend,"margin 10%, loss 60%",seasonal,approve everyone,42,1.0,0.104,0.027200000000000002,1.0
+no trend,"margin 15%, loss 60%",seasonal,approve everyone,42,1.0,0.104,0.07199999999999998,1.0
+no trend,"margin 10%, loss 90%",seasonal,approve everyone,42,1.0,0.104,-0.003999999999999992,1.0
+no trend,"margin 10%, loss 60%",seasonal,A baseline,42,0.828,0.08454106280193237,0.0338,0.88268156424581
+no trend,"margin 15%, loss 60%",seasonal,A baseline,42,0.932,0.09656652360515021,0.0723,0.9720670391061452
+no trend,"margin 10%, loss 90%",seasonal,A baseline,42,0.622,0.08360128617363344,0.010199999999999996,0.6256983240223464
+no trend,"margin 10%, loss 60%",seasonal,D STL features (no trend),42,0.828,0.08695652173913043,0.032400000000000005,0.8659217877094972
+no trend,"margin 15%, loss 60%",seasonal,D STL features (no trend),42,0.924,0.09740259740259741,0.0711,0.9497206703910615
+no trend,"margin 10%, loss 90%",seasonal,D STL features (no trend),42,0.626,0.07667731629392971,0.014599999999999998,0.5754189944134078
+no trend,"margin 10%, loss 60%",fixed,approve everyone,7,1.0,0.152,-0.006399999999999999,1.0
+no trend,"margin 15%, loss 60%",fixed,approve everyone,7,1.0,0.152,0.036,1.0
+no trend,"margin 10%, loss 90%",fixed,approve everyone,7,1.0,0.152,-0.052,1.0
+no trend,"margin 10%, loss 60%",fixed,A baseline,7,0.568,0.08098591549295775,0.0246,0.5722222222222222
+no trend,"margin 15%, loss 60%",fixed,A baseline,7,0.774,0.12144702842377261,0.0456,0.8277777777777777
+no trend,"margin 10%, loss 90%",fixed,A baseline,7,0.346,0.057803468208092484,0.014599999999999998,0.32222222222222224
+no trend,"margin 10%, loss 60%",fixed,D STL features (no trend),7,0.606,0.0891089108910891,0.022799999999999997,0.5833333333333334
+no trend,"margin 15%, loss 60%",fixed,D STL features (no trend),7,0.79,0.11645569620253164,0.0495,0.8222222222222222
+no trend,"margin 10%, loss 90%",fixed,D STL features (no trend),7,0.376,0.07446808510638298,0.009599999999999997,0.31666666666666665
+no trend,"margin 10%, loss 60%",seasonal,approve everyone,7,1.0,0.082,0.042600000000000006,1.0
+no trend,"margin 15%, loss 60%",seasonal,approve everyone,7,1.0,0.082,0.08849999999999997,1.0
+no trend,"margin 10%, loss 90%",seasonal,approve everyone,7,1.0,0.082,0.018,1.0
+no trend,"margin 10%, loss 60%",seasonal,A baseline,7,0.88,0.06363636363636363,0.048799999999999996,0.9277777777777778
+no trend,"margin 15%, loss 60%",seasonal,A baseline,7,0.948,0.07383966244725738,0.08969999999999997,0.9833333333333333
+no trend,"margin 10%, loss 90%",seasonal,A baseline,7,0.754,0.050397877984084884,0.037399999999999996,0.8222222222222222
+no trend,"margin 10%, loss 60%",seasonal,D STL features (no trend),7,0.872,0.06192660550458716,0.049400000000000006,0.9277777777777778
+no trend,"margin 15%, loss 60%",seasonal,D STL features (no trend),7,0.932,0.07081545064377683,0.09029999999999998,0.9555555555555556
+no trend,"margin 10%, loss 90%",seasonal,D STL features (no trend),7,0.754,0.05305039787798409,0.0354,0.8
+no trend,"margin 10%, loss 60%",fixed,approve everyone,21,1.0,0.14,0.002,1.0
+no trend,"margin 15%, loss 60%",fixed,approve everyone,21,1.0,0.14,0.04499999999999999,1.0
+no trend,"margin 10%, loss 90%",fixed,approve everyone,21,1.0,0.14,-0.04,1.0
+no trend,"margin 10%, loss 60%",fixed,A baseline,21,0.618,0.08414239482200647,0.0254,0.6358381502890174
+no trend,"margin 15%, loss 60%",fixed,A baseline,21,0.794,0.10075566750629723,0.05910000000000001,0.815028901734104
+no trend,"margin 10%, loss 90%",fixed,A baseline,21,0.408,0.058823529411764705,0.016800000000000002,0.45664739884393063
+no trend,"margin 10%, loss 60%",fixed,D STL features (no trend),21,0.652,0.07975460122699386,0.028799999999999996,0.630057803468208
+no trend,"margin 15%, loss 60%",fixed,D STL features (no trend),21,0.81,0.10123456790123457,0.06,0.7976878612716763
+no trend,"margin 10%, loss 90%",fixed,D STL features (no trend),21,0.448,0.049107142857142856,0.022799999999999997,0.4393063583815029
+no trend,"margin 10%, loss 60%",seasonal,approve everyone,21,1.0,0.096,0.032799999999999996,1.0
+no trend,"margin 15%, loss 60%",seasonal,approve everyone,21,1.0,0.096,0.07799999999999999,1.0
+no trend,"margin 10%, loss 90%",seasonal,approve everyone,21,1.0,0.096,0.004,1.0
+no trend,"margin 10%, loss 60%",seasonal,A baseline,21,0.808,0.07178217821782178,0.0402,0.8323699421965318
+no trend,"margin 15%, loss 60%",seasonal,A baseline,21,0.91,0.08351648351648351,0.0795,0.930635838150289
+no trend,"margin 10%, loss 90%",seasonal,A baseline,21,0.646,0.05263157894736842,0.030599999999999995,0.6416184971098265
+no trend,"margin 10%, loss 60%",seasonal,D STL features (no trend),21,0.83,0.07228915662650602,0.041,0.861271676300578
+no trend,"margin 15%, loss 60%",seasonal,D STL features (no trend),21,0.906,0.08609271523178808,0.07739999999999998,0.9364161849710982
+no trend,"margin 10%, loss 90%",seasonal,D STL features (no trend),21,0.66,0.05454545454545454,0.029999999999999995,0.6589595375722543
+with trend,"margin 10%, loss 60%",fixed,approve everyone,42,1.0,0.288,-0.1016,1.0
+with trend,"margin 15%, loss 60%",fixed,approve everyone,42,1.0,0.288,-0.066,1.0
+with trend,"margin 10%, loss 90%",fixed,approve everyone,42,1.0,0.288,-0.188,1.0
+with trend,"margin 10%, loss 60%",fixed,A baseline,42,0.168,0.13095238095238096,0.0014000000000000009,0.18994413407821228
+with trend,"margin 15%, loss 60%",fixed,A baseline,42,0.35,0.13142857142857142,0.018,0.36312849162011174
+with trend,"margin 10%, loss 90%",fixed,A baseline,42,0.072,0.08333333333333333,0.0012000000000000001,0.07262569832402235
+with trend,"margin 10%, loss 60%",fixed,D STL features (no trend),42,0.164,0.0975609756097561,0.0052000000000000015,0.16201117318435754
+with trend,"margin 15%, loss 60%",fixed,D STL features (no trend),42,0.376,0.12234042553191489,0.0219,0.36312849162011174
+with trend,"margin 10%, loss 90%",fixed,D STL features (no trend),42,0.054,0.1111111111111111,-0.0005999999999999994,0.05027932960893855
+with trend,"margin 10%, loss 60%",seasonal,approve everyone,42,1.0,0.238,-0.06659999999999999,1.0
+with trend,"margin 15%, loss 60%",seasonal,approve everyone,42,1.0,0.238,-0.028500000000000008,1.0
+with trend,"margin 10%, loss 90%",seasonal,approve everyone,42,1.0,0.238,-0.138,1.0
+with trend,"margin 10%, loss 60%",seasonal,A baseline,42,0.288,0.09722222222222222,0.009200000000000002,0.2905027932960894
+with trend,"margin 15%, loss 60%",seasonal,A baseline,42,0.462,0.1471861471861472,0.0183,0.46368715083798884
+with trend,"margin 10%, loss 90%",seasonal,A baseline,42,0.13,0.09230769230769231,0.0010000000000000005,0.1452513966480447
+with trend,"margin 10%, loss 60%",seasonal,D STL features (no trend),42,0.288,0.09722222222222222,0.009200000000000003,0.2849162011173184
+with trend,"margin 15%, loss 60%",seasonal,D STL features (no trend),42,0.502,0.13545816733067728,0.024300000000000002,0.49162011173184356
+with trend,"margin 10%, loss 90%",seasonal,D STL features (no trend),42,0.114,0.07017543859649122,0.0034000000000000002,0.10614525139664804
+with trend,"margin 10%, loss 60%",fixed,approve everyone,7,1.0,0.332,-0.1324,1.0
+with trend,"margin 15%, loss 60%",fixed,approve everyone,7,1.0,0.332,-0.09900000000000002,1.0
+with trend,"margin 10%, loss 90%",fixed,approve everyone,7,1.0,0.332,-0.232,1.0
+with trend,"margin 10%, loss 60%",fixed,A baseline,7,0.076,0.10526315789473684,0.002000000000000001,0.08333333333333333
+with trend,"margin 15%, loss 60%",fixed,A baseline,7,0.216,0.1111111111111111,0.014399999999999998,0.21666666666666667
+with trend,"margin 10%, loss 90%",fixed,A baseline,7,0.024,0.16666666666666666,-0.0016,0.016666666666666666
+with trend,"margin 10%, loss 60%",fixed,D STL features (no trend),7,0.08,0.075,0.0038000000000000004,0.07777777777777778
+with trend,"margin 15%, loss 60%",fixed,D STL features (no trend),7,0.236,0.1271186440677966,0.012900000000000002,0.2222222222222222
+with trend,"margin 10%, loss 90%",fixed,D STL features (no trend),7,0.024,0.16666666666666666,-0.0015999999999999999,0.022222222222222223
+with trend,"margin 10%, loss 60%",seasonal,approve everyone,7,1.0,0.278,-0.09459999999999999,1.0
+with trend,"margin 15%, loss 60%",seasonal,approve everyone,7,1.0,0.278,-0.05850000000000002,1.0
+with trend,"margin 10%, loss 90%",seasonal,approve everyone,7,1.0,0.278,-0.178,1.0
+with trend,"margin 10%, loss 60%",seasonal,A baseline,7,0.15,0.10666666666666667,0.0038000000000000004,0.16666666666666666
+with trend,"margin 15%, loss 60%",seasonal,A baseline,7,0.332,0.13253012048192772,0.016800000000000006,0.34444444444444444
+with trend,"margin 10%, loss 90%",seasonal,A baseline,7,0.052,0.19230769230769232,-0.0048,0.05555555555555555
+with trend,"margin 10%, loss 60%",seasonal,D STL features (no trend),7,0.16,0.125,0.002000000000000001,0.17777777777777778
+with trend,"margin 15%, loss 60%",seasonal,D STL features (no trend),7,0.34,0.12352941176470589,0.0195,0.35555555555555557
+with trend,"margin 10%, loss 90%",seasonal,D STL features (no trend),7,0.042,0.19047619047619047,-0.003800000000000001,0.03888888888888889
+with trend,"margin 10%, loss 60%",fixed,approve everyone,21,1.0,0.328,-0.1296,1.0
+with trend,"margin 15%, loss 60%",fixed,approve everyone,21,1.0,0.328,-0.096,1.0
+with trend,"margin 10%, loss 90%",fixed,approve everyone,21,1.0,0.328,-0.228,1.0
+with trend,"margin 10%, loss 60%",fixed,A baseline,21,0.124,0.0967741935483871,0.004,0.15606936416184972
+with trend,"margin 15%, loss 60%",fixed,A baseline,21,0.25,0.16,0.007500000000000001,0.3063583815028902
+with trend,"margin 10%, loss 90%",fixed,A baseline,21,0.054,0.037037037037037035,0.0034000000000000002,0.06936416184971098
+with trend,"margin 10%, loss 60%",fixed,D STL features (no trend),21,0.12,0.08333333333333333,0.005,0.13872832369942195
+with trend,"margin 15%, loss 60%",fixed,D STL features (no trend),21,0.274,0.18248175182481752,0.0036000000000000025,0.30057803468208094
+with trend,"margin 10%, loss 90%",fixed,D STL features (no trend),21,0.052,0.038461538461538464,0.0032,0.06358381502890173
+with trend,"margin 10%, loss 60%",seasonal,approve everyone,21,1.0,0.278,-0.09459999999999998,1.0
+with trend,"margin 15%, loss 60%",seasonal,approve everyone,21,1.0,0.278,-0.0585,1.0
+with trend,"margin 10%, loss 90%",seasonal,approve everyone,21,1.0,0.278,-0.178,1.0
+with trend,"margin 10%, loss 60%",seasonal,A baseline,21,0.196,0.09183673469387756,0.007,0.2543352601156069
+with trend,"margin 15%, loss 60%",seasonal,A baseline,21,0.35,0.13714285714285715,0.0165,0.3815028901734104
+with trend,"margin 10%, loss 90%",seasonal,A baseline,21,0.09,0.08888888888888889,0.0010000000000000005,0.12138728323699421
+with trend,"margin 10%, loss 60%",seasonal,D STL features (no trend),21,0.186,0.10752688172043011,0.004600000000000001,0.19653179190751446
+with trend,"margin 15%, loss 60%",seasonal,D STL features (no trend),21,0.362,0.14917127071823205,0.013800000000000002,0.3988439306358382
+with trend,"margin 10%, loss 90%",seasonal,D STL features (no trend),21,0.082,0.04878048780487805,0.004200000000000001,0.09826589595375723

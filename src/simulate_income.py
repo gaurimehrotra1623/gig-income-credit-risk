@@ -42,7 +42,7 @@ def simulate_worker(worker_id, n_weeks=104, base_income=6000.0, trend_per_week=0
                          "income": income, "had_shock": hit.astype(int)})
 
 
-def simulate_population(n_workers=500, n_weeks=156, seed=42):
+def simulate_population(n_workers=500, n_weeks=156, seed=42, trend_std=5.0):
     rng = np.random.default_rng(seed)
     kinds = rng.choice(["steady", "seasonal", "volatile"], size=n_workers,
                        p=[0.35, 0.35, 0.30])
@@ -53,7 +53,7 @@ def simulate_population(n_workers=500, n_weeks=156, seed=42):
     for i, kind in enumerate(kinds):
         amp, noise, shock_p = params[kind]
         df = simulate_worker(i, n_weeks, base_income=rng.normal(6000, 800),
-                             trend_per_week=rng.normal(0, 5),
+                             trend_per_week=rng.normal(0, trend_std),
                              seasonal_amplitude=amp, noise_std=noise,
                              shock_prob=shock_p, rng=rng)
         df["archetype"] = kind
