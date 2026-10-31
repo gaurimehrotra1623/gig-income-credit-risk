@@ -1,0 +1,49 @@
+world,schedule,features,learner,auc,sd
+no_trend,fixed,Baseline,Logistic regression,0.6923038170514793,0.027018217962322177
+no_trend,fixed,Baseline,Gradient boosting,0.7441654861769923,0.026069654808237325
+no_trend,fixed,Residual only,Logistic regression,0.6799609379376161,0.0309557757725057
+no_trend,fixed,Residual only,Gradient boosting,0.6640038518165085,0.03633604448036305
+no_trend,fixed,+ cash-flow stats,Logistic regression,0.7748555619781705,0.018796717726782264
+no_trend,fixed,+ cash-flow stats,Gradient boosting,0.7889049406273726,0.02133137602908808
+no_trend,fixed,+ cash-flow + simple trend,Logistic regression,0.7773125687495099,0.018152943784793412
+no_trend,fixed,+ cash-flow + simple trend,Gradient boosting,0.7892964771123608,0.021576794434005404
+no_trend,fixed,+ cash-flow + STL,Logistic regression,0.7749063979162752,0.016539227973511157
+no_trend,fixed,+ cash-flow + STL,Gradient boosting,0.7901716518634622,0.02264392440027044
+no_trend,fixed,All features,Logistic regression,0.7739270893744264,0.016135919943979404
+no_trend,fixed,All features,Gradient boosting,0.792472726075648,0.023264341346180214
+no_trend,seasonal,Baseline,Logistic regression,0.689202011578655,0.04897958221912597
+no_trend,seasonal,Baseline,Gradient boosting,0.6920601202133654,0.031289191370455334
+no_trend,seasonal,Residual only,Logistic regression,0.6570966437518226,0.049077054395591097
+no_trend,seasonal,Residual only,Gradient boosting,0.6248365729784158,0.03738476403823083
+no_trend,seasonal,+ cash-flow stats,Logistic regression,0.7228775154215404,0.054103181439016934
+no_trend,seasonal,+ cash-flow stats,Gradient boosting,0.7324279463776898,0.03566131678554657
+no_trend,seasonal,+ cash-flow + simple trend,Logistic regression,0.7238712180447263,0.055328855627458526
+no_trend,seasonal,+ cash-flow + simple trend,Gradient boosting,0.7289815055476282,0.034039651297029516
+no_trend,seasonal,+ cash-flow + STL,Logistic regression,0.7266463168421641,0.04783254141586026
+no_trend,seasonal,+ cash-flow + STL,Gradient boosting,0.7304652863045124,0.03871444212720162
+no_trend,seasonal,All features,Logistic regression,0.725380591348092,0.04578360913869809
+no_trend,seasonal,All features,Gradient boosting,0.7283001586146878,0.03691057020570342
+with_trend,fixed,Baseline,Logistic regression,0.7043505761767781,0.015658653137372764
+with_trend,fixed,Baseline,Gradient boosting,0.7103751624060379,0.013594075773260826
+with_trend,fixed,Residual only,Logistic regression,0.705180901509817,0.017357943762071098
+with_trend,fixed,Residual only,Gradient boosting,0.6984278359543324,0.017835742528590524
+with_trend,fixed,+ cash-flow stats,Logistic regression,0.7184146704897776,0.01679536476488404
+with_trend,fixed,+ cash-flow stats,Gradient boosting,0.7455267000441134,0.018623736772826322
+with_trend,fixed,+ cash-flow + simple trend,Logistic regression,0.9018179801572032,0.008256520182417466
+with_trend,fixed,+ cash-flow + simple trend,Gradient boosting,0.9133124642320558,0.01111086730850028
+with_trend,fixed,+ cash-flow + STL,Logistic regression,0.8954047783867148,0.008768165447676652
+with_trend,fixed,+ cash-flow + STL,Gradient boosting,0.9074624082987317,0.01044506891283059
+with_trend,fixed,All features,Logistic regression,0.9013942331138617,0.008573015391641008
+with_trend,fixed,All features,Gradient boosting,0.9092431068576088,0.01158077866630763
+with_trend,seasonal,Baseline,Logistic regression,0.7027812944496576,0.02414851110519333
+with_trend,seasonal,Baseline,Gradient boosting,0.6973326023353774,0.02727801214771943
+with_trend,seasonal,Residual only,Logistic regression,0.7048504599803243,0.024518237831809307
+with_trend,seasonal,Residual only,Gradient boosting,0.6997167235550841,0.020919306767848752
+with_trend,seasonal,+ cash-flow stats,Logistic regression,0.7076184132552182,0.02482981567751241
+with_trend,seasonal,+ cash-flow stats,Gradient boosting,0.7316631947943477,0.022836855574932726
+with_trend,seasonal,+ cash-flow + simple trend,Logistic regression,0.9074730570726031,0.008093992929430274
+with_trend,seasonal,+ cash-flow + simple trend,Gradient boosting,0.9168754439470673,0.005350934763343584
+with_trend,seasonal,+ cash-flow + STL,Logistic regression,0.8967087499787253,0.0077432085887888325
+with_trend,seasonal,+ cash-flow + STL,Gradient boosting,0.906635960965714,0.006736751268592746
+with_trend,seasonal,All features,Logistic regression,0.9057641930342463,0.00861027355641493
+with_trend,seasonal,All features,Gradient boosting,0.9125641132088539,0.0050681055563241845
